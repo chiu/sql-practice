@@ -1,0 +1,9 @@
+ SELECT name, continent
+       CASE WHEN continent='Oceania' THEN 'Australasia'
+      WHEN continent = 'Eurasia' THEN 'Europe' 
+      WHEN continent = 
+      WHEN continent = 'North America' THEN 'America'
+     WHEN continent = 'South America' THEN 'America'
+    WHEN continent =  'Caribbean' THEN 'America'
+ELSE continent END
+  FROM world
